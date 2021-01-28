@@ -24,13 +24,13 @@ namespace BookFinderBackEnd
         {
             services.AddHttpClient();
 
-            services.AddControllers();
-
             services.AddCors(c =>  
             {  
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());  
-            }); 
-     
+            });
+
+            services.AddControllers();
+
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
@@ -57,6 +57,7 @@ namespace BookFinderBackEnd
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -76,15 +77,15 @@ namespace BookFinderBackEnd
             });
 
             app.UseRouting();
+            
+            app.UseCors(options => options.AllowAnyOrigin());
 
             app.UseAuthorization();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
-            app.UseCors(options => options.AllowAnyOrigin());
         }
     }
 }
