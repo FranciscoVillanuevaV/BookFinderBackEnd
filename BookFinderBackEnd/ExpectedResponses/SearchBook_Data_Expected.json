@@ -208,25 +208,21 @@
     },
     {
       "volumeInfo": {
-        "title": "The Barking Cat",
+        "title": "The Exile's Return; Or, a Cat's Journey from Glasgow to Edinburgh. A Tale for Children",
         "authors": [
-          "Janet Killeen"
+          "George Ayliffe Poole"
         ],
-        "publishedDate": "2013-07",
+        "publishedDate": "1837",
         "industryIdentifiers": [
           {
-            "type": "ISBN_13",
-            "identifier": "9781481775557"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1481775553"
+            "type": "OTHER",
+            "identifier": "BL:A0019436146"
           }
         ],
-        "pageCount": 28,
+        "pageCount": 79,
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=lo4rVY_FozUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=lo4rVY_FozUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=QQBgAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QQBgAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "publisher": null
       }
