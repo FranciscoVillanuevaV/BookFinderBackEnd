@@ -1,0 +1,235 @@
+{
+  "items": [
+    {
+      "volumeInfo": {
+        "title": "The Quotable Cat Lover",
+        "authors": [
+          "Charles Elliott"
+        ],
+        "publishedDate": "2004",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1402716451"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402716454"
+          }
+        ],
+        "pageCount": 257,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_zKNyKK4zN4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_zKNyKK4zN4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "Sterling Publishing Company, Inc."
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Oración funebre que en las sol. ex. celebradas enla Ig. Cat. de esta ciudad a la memoria de D. Andrés Jos. del Barco, a 22 de Enero de 1795 dixo el Dr. D. Fco Xavier Almonacid",
+        "authors": null,
+        "publishedDate": "1795",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "BDM:13020100020093"
+          }
+        ],
+        "pageCount": 70,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OouszPn44IsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OouszPn44IsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Cat Training",
+        "authors": [
+          "Walter. A. Aiken"
+        ],
+        "publishedDate": "2018-09-25",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:6610000109470"
+          }
+        ],
+        "pageCount": 28,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9IOTDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9IOTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "Kingsway via PublishDrive"
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "The Cat",
+        "authors": [
+          "Sarah Brown"
+        ],
+        "publishedDate": "2020-03-03",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781782408574"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1782408576"
+          }
+        ],
+        "pageCount": 224,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=H3DNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=H3DNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "A to Z of Cat Care",
+        "authors": [
+          "Christina Dankle"
+        ],
+        "publishedDate": "2012-02-05",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781469912820"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1469912821"
+          }
+        ],
+        "pageCount": 84,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g0WTlzSVQ1cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g0WTlzSVQ1cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "Bad Cat Publishing"
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Vestibular Reactions in Cat and Man During and After Angular Acceleration",
+        "authors": [
+          "William Edward Collins",
+          "Fred E. Guedry (Jr.)"
+        ],
+        "publishedDate": "1967",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015095156785"
+          }
+        ],
+        "pageCount": 19,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gz5OQXNhhdQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gz5OQXNhhdQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Grimalkin, or, The rebel-cat [i.e. A.A. Cooper A satire on his intrigues with the duke of Monmouth.].",
+        "authors": null,
+        "publishedDate": "1681",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:590258380"
+          }
+        ],
+        "pageCount": 0,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hSVcAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hSVcAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Kenix and the Cat King",
+        "authors": [
+          "Christopher Terrence Merrifield"
+        ],
+        "publishedDate": "2015-11",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0992617936"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780992617936"
+          }
+        ],
+        "pageCount": 88,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=H4O_YK0OqiEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=H4O_YK0OqiEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "Christopher T Merrifield"
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Tales of Topaz the Conjure Cat",
+        "authors": [
+          "Pat Frayne"
+        ],
+        "publishedDate": "2010-05",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452000930"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "145200093X"
+          }
+        ],
+        "pageCount": 136,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=t4IV8kQY9BYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=t4IV8kQY9BYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "AuthorHouse"
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "The Barking Cat",
+        "authors": [
+          "Janet Killeen"
+        ],
+        "publishedDate": "2013-07",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781481775557"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1481775553"
+          }
+        ],
+        "pageCount": 28,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lo4rVY_FozUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lo4rVY_FozUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 namespace BookFinderBackEnd.Models
 {
-    public class BookCover
+    public class FreeBookCover
     {
         public string Small { get; set; }
         public string Medium { get; set; }

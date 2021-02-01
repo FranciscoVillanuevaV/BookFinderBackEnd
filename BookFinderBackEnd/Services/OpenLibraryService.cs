@@ -10,10 +10,10 @@ namespace BookFinderBackEnd.Services
             this.baseUrl = "http://openlibrary.org/";
             this._clientFactory = clientFactory;
         }
-        public virtual ServiceResponse<Book> BookByIsbn(string isbn)
+        public virtual ServiceResponse<FreeBooks> FreeBooksByIsbn(string isbn)
         {
             string pathController = $"/api/volumes/brief/isbn/{isbn}.json";
-            return TheGet<Book>(pathController);
+            return TheGet<FreeBooks>(pathController);
         }
     }
 }

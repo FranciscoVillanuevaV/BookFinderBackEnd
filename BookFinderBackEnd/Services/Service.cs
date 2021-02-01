@@ -10,18 +10,6 @@ namespace BookFinderBackEnd.Services
     {
         protected IHttpClientFactory _clientFactory;
         protected string baseUrl;
-        protected static string FixJsonResponse(string jsonInput)
-        {
-            string readResultFixed = jsonInput;
-            int start = jsonInput.IndexOf('/');
-            if (start >= 0)
-            {
-                int end = jsonInput.IndexOf('\"', start);
-                string toReplace = jsonInput.Substring(start, end - start);
-                readResultFixed = jsonInput.Replace(toReplace, "/books/");
-            }
-            return readResultFixed;
-        }
         protected static ServiceResponse<output> ReadResult<output>(Task<HttpResponseMessage> response) 
         where output : class
         {
@@ -35,14 +23,12 @@ namespace BookFinderBackEnd.Services
                 return serviceResponse;
             
             string readResult = result.Content.ReadAsStringAsync().Result;
-            
-            if (serviceResponse.CodeStatus != 200 || readResult.Equals("[]"))
-                return new ServiceResponse<output>();        
-            
-            string readResultFixed = FixJsonResponse(readResult);
+
+            if (readResult.Equals("[]"))
+                return serviceResponse;
 
             serviceResponse.ApiResponse = JsonSerializer.Deserialize<output>(
-                readResultFixed, 
+                readResult, 
                 new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
             return serviceResponse;
         }

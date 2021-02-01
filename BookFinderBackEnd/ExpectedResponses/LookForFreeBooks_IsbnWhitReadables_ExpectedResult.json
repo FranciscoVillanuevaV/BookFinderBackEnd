@@ -1,31 +1,4 @@
-{
-  "records": {
-    "/books/": {
-      "isbns": [
-        "0486278077"
-      ],
-      "data": {
-        "authors": [
-          {
-            "name": "Oscar Wilde"
-          }
-        ],
-        "title": "The picture of Dorian Gray",
-        "number_Of_Pages": 165,
-        "publishers": [
-          {
-            "name": "Dover Publications"
-          }
-        ],
-        "publish_Date": "1993",
-        "cover": {
-          "small": "https://covers.openlibrary.org/b/id/8576646-S.jpg",
-          "medium": "https://covers.openlibrary.org/b/id/8576646-M.jpg",
-          "large": "https://covers.openlibrary.org/b/id/8576646-L.jpg"
-        }
-      }
-    }
-  },
+{  
   "items": [
     {
       "match": "similar",

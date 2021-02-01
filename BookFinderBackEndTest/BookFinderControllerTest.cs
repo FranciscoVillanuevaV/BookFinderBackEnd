@@ -1,3 +1,4 @@
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Net.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -23,10 +24,10 @@ namespace BookFinderBackEndTest
             controller = new BookFinderController(factory);
         }
         [TestMethod]
-        public void LookForBook_NotRegisteredISBN_204StatusCode()
+        public void LookForFreeBooks_NotValidISBN_404StatusCode()
         {
             string isbn = "dadada";
-            var response = controller.LookForBook(isbn);
+            var response = controller.LookForFreeBooks(isbn);
 
             Assert.AreEqual(
                 204,
@@ -35,37 +36,71 @@ namespace BookFinderBackEndTest
         }
         
         [TestMethod]
-        public void LookForBook_IsbnWhithOutReadables_ExpectedResult()
+        public void LookForFreeBooks_IsbnWhithOutReadables_ExpectedResult()
         {
-            var response = controller.LookForBook("9788492837397");
+            var response = controller.LookForFreeBooks("9788492837397");
 
-            string jsonResponse = JsonSerializer
+            string jsonResponse = JsonSerializer                      
+                .Serialize(
+                    (FreeBooks)((OkObjectResult)response).Value)
+                .ToLower();
+
+            string expected = "{\"items\":[]}";
+
+            Assert.AreEqual(jsonResponse,expected);
+        }
+
+        [TestMethod]
+        public void LookForFreeBooks_IsbnWhitReadables_ExpectedResult()
+        {
+            var response = controller.LookForFreeBooks("9780486278070");
+
+            string jsonResponse = JsonSerializer                      
             .Serialize(
-                (Book)((OkObjectResult)response).Value)
+                (FreeBooks)((OkObjectResult)response).Value)
             .ToLower();
 
             string expected = JsonFile.ReadAsJson(
-                pathToJsonExpectedResults + "BookWhitoutReadables.json")
+                pathToJsonExpectedResults + 
+                "LookForFreeBooks_IsbnWhitReadables_ExpectedResult.json")
             .ToLower();
 
             Assert.AreEqual(jsonResponse,expected);
         }
 
         [TestMethod]
-        public void LookForBook_IsbnWhitReadables_ExpectedResult()
+        public void SearchBook_Data_Expected()
         {
-            var response = controller.LookForBook("9780486278070");
+            var response = controller.SearchBook(0, "cat");
 
+            //encoder to serialize special characters
             string jsonResponse = JsonSerializer                      
             .Serialize(
-                (Book)((OkObjectResult)response).Value)
+                (FoundBooks)((OkObjectResult)response).Value, 
+                new JsonSerializerOptions()
+                { 
+                    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                }
+            )
             .ToLower();
 
             string expected = JsonFile.ReadAsJson(
-                pathToJsonExpectedResults + "BookWhitReadables.json")
+                pathToJsonExpectedResults + 
+                "SearchBook_Data_Expected.json")
             .ToLower();
 
             Assert.AreEqual(jsonResponse,expected);
+        }
+
+        [TestMethod]
+        public void SearchBook_NotRegisteredData_ExpectedResult()
+        {
+            var response = controller.SearchBook(19, "crazy90909");
+
+            Assert.AreEqual(
+                204,
+                ((StatusCodeResult)response).StatusCode
+            );
         }
     }
 }
