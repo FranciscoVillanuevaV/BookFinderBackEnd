@@ -13,33 +13,43 @@ namespace BookFinderBackEnd.Controllers
 	[ApiController]
 	public class BookFinderController : ControllerBase
 	{
-		OpenLibraryService openLibrary;
 		GoogleBooksService googleBooks;
 
 		public BookFinderController(IHttpClientFactory clientFactory)
 		{
-			openLibrary = new OpenLibraryService(clientFactory);
 			googleBooks = new GoogleBooksService(clientFactory);
 		}
 
-		/// <summary>For a given isbn, looks for readable matches.</summary>
+		/// <summary>Addvanced search for books.</summary>
+		/// <param name="pageNumber">Page number</param>
 		/// <param name="isbn"></param>
+		/// <param name="author"></param>
+		/// <param name="publisher"></param>
+		/// <param name="title"></param>
 		/// <response code="200">Success</response>
-		[HttpGet("free/isbn/{isbn}")]
-		[ProducesResponseType(typeof(FreeBooks), StatusCodes.Status200OK)]
-		public IActionResult LookForFreeBooks(string isbn)
+		[HttpGet("search/advanced")]
+		[ProducesResponseType(typeof(FoundBooks), StatusCodes.Status200OK)]
+		public IActionResult AdvancedSearch(
+			int pageNumber, 
+			string isbn, string author, 
+			string publisher, string title
+		)
 		{
 			try
 			{
-				ServiceResponse<FreeBooks> result = openLibrary.FreeBooksByIsbn(isbn);
+				ServiceResponse<FoundBooks> response = googleBooks.FoundBooksAdvanced(
+					pageNumber, 
+					isbn, author, 
+					publisher, title
+				);
 
-				if (result.HasIssues)
-					return result.ShowIssues();
-
-				if (result.ApiResponse is null)
+				if (response.HasIssues)
+					return response.ShowIssues();
+				
+				if (response.ApiResponse.items is null)
 					return NoContent();
-
-				return Ok(result.ApiResponse);
+				
+				return Ok(response.ApiResponse);
 			}
 			catch (Exception e)
 			{

@@ -27,25 +27,6 @@
     },
     {
       "volumeInfo": {
-        "title": "Oración funebre que en las sol. ex. celebradas enla Ig. Cat. de esta ciudad a la memoria de D. Andrés Jos. del Barco, a 22 de Enero de 1795 dixo el Dr. D. Fco Xavier Almonacid",
-        "authors": null,
-        "publishedDate": "1795",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "BDM:13020100020093"
-          }
-        ],
-        "pageCount": 70,
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=OouszPn44IsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=OouszPn44IsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "publisher": null
-      }
-    },
-    {
-      "volumeInfo": {
         "title": "Cat Training",
         "authors": [
           "Walter. A. Aiken"
@@ -139,25 +120,6 @@
     },
     {
       "volumeInfo": {
-        "title": "Grimalkin, or, The rebel-cat [i.e. A.A. Cooper A satire on his intrigues with the duke of Monmouth.].",
-        "authors": null,
-        "publishedDate": "1681",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "OXFORD:590258380"
-          }
-        ],
-        "pageCount": 0,
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=hSVcAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=hSVcAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "publisher": null
-      }
-    },
-    {
-      "volumeInfo": {
         "title": "Kenix and the Cat King",
         "authors": [
           "Christopher Terrence Merrifield"
@@ -208,21 +170,70 @@
     },
     {
       "volumeInfo": {
-        "title": "The Exile's Return; Or, a Cat's Journey from Glasgow to Edinburgh. A Tale for Children",
+        "title": "Harry Cat and Tucker Mouse: Starring Harry",
         "authors": [
-          "George Ayliffe Poole"
+          "Thea Feldman",
+          "George Selden",
+          "Olga Ivanov",
+          "Aleksey Ivanov"
         ],
-        "publishedDate": "1837",
+        "publishedDate": "2014-02-25",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781429995306"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1429995300"
+          }
+        ],
+        "pageCount": 32,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uC-uAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uC-uAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": "Square Fish"
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "The Moving Adventures of Old Dame Trot and Her Comical Cat",
+        "authors": [
+          "L**** (Dutchess of.)"
+        ],
+        "publishedDate": "1807",
         "industryIdentifiers": [
           {
             "type": "OTHER",
-            "identifier": "BL:A0019436146"
+            "identifier": "IND:30000115236568"
           }
         ],
-        "pageCount": 79,
+        "pageCount": 32,
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=QQBgAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=QQBgAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=_YgyAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_YgyAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "publisher": null
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "A cat with four hundred and fifty tails",
+        "authors": [
+          "Tom Plumb (pseud.)"
+        ],
+        "publishedDate": "1791",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:600002972"
+          }
+        ],
+        "pageCount": 0,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DwCdKcmva54C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DwCdKcmva54C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "publisher": null
       }
